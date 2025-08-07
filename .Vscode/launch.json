@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Conda shell 启动",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "windows": {
+        "command": "conda",
+        "args": 
+        ["run", "-n", "d2l", "python", "${file}"]
+      }
+    }
+  ]
+}
